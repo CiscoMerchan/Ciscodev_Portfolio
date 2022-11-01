@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{%block title%}Ciscodev{% endblock %}
+{% block styles %}
+{% endblock %}
+{% block content %}
+ <!-- Introduction -->
+<section class="intro intro-grid " id="home">
+        <div>
+            <h1 class="section__title section__title--intro titulo" >
+                Hi,<br> I am <strong>Cisco</strong>
+            </h1>
+
+        </div>
+        <div class="text_saludo">
+            <h4 class="section__subtitle section__subtitle--intro top-p1">On my way to become a Junior Python Developer</h4>
+            <p class="section__subtitle section__subtitle--intro top-p2">There are three major things that fascinate me about programming: Being a creator or participate on creation, look for solution for tangible problems and the constant and continuous learning in programming. For a long time I wanted to be a programmer, I don't know what was
+                stopping me. However now I know that I am not going to stop and I am going to be a programmer.</p>
+            <div class="whereh3">
+                <h5 class="where" >I'm based in Queensland, Australia.</h5>
+            </div>
+       </div>
+</section>
+
+
+<section class="home ">
+
+    <div class="titles">
+        <a href="{{url_for('aboutme')}}">
+        <button class="home-titles" >About me</button></a><br>
+        <a href="{{url_for('resume')}}">
+        <button class="home-titles btn-c">Resume</button>
+            </a><br>
+        <a href="{{url_for('projects')}}">
+        <button class="home-titles btn-c" >Projects</button>
+            </a><br>
+        <a href="{{url_for('contact')}}">
+        <button class="home-titles btn-c" >Contact</button>
+        </a>
+    </div>
+
+</section>
+
+<!-- coding skills -->
+<section class="code">
+    <h2 class="head-code-skills">Skills</h2>
+    <div class="skill-grid col-md-12 col-center ">
+        <div class="">
+        <button class="code-skills">Python</button>
+        </div>
+        <div class="">
+        <button class="code-skills">Tkinter</button>
+        </div>
+        <div class="">
+        <button class="code-skills">Flask</button>
+        </div>
+        <div class="">
+        <button class="code-skills">HTML</button>
+        </div>
+        <div class="">
+        <button class="code-skills">CSS</button>
+        </div>
+        <div class="">
+        <button class="code-skills bootstrap">Bootstrap</button>
+        </div>
+        <div class="">
+        <button class="code-skills">SQLite</button>
+        </div>
+        <div class="">
+        <button class="code-skills">GitHub</button>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{%block footer%}
+<div class="footer">
+<h6 class="h6footer">&copy;Copyright 2022. Built by Ciscodev at Maroochydore, QLD.</h6>
+</div>
+{% endblock %}

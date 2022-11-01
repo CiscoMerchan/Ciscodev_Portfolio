@@ -1,0 +1,403 @@
+/*Root*/
+body {
+    background-color : #3B5360;
+ }
+ .navbar-height{
+    height: 50px;
+ }
+ .nav-item:hover{
+    font-style: bold;
+ }
+ h1, h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+ }
+ h3, h4, h5, h6, p,li {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+ }
+/* home.html */
+/*prueva del otro portfolio*/
+
+.section__title{
+    margin-bottom: .25em;
+
+}
+
+.section__title--intro{
+    font-weight: var(--fw-reg);
+    padding-left: .25em;
+}
+/* Here in the .section__title--intro plus strong will make it into will put the strong tang in the next line
+  becasue display: block; (this a compound selector)*/
+.section__title--intro strong{
+    display: block;
+}
+.intro{
+    font-size: 100%;
+}
+.titulo{
+    font-size: 50px;
+    padding: 25px 0 0 0 ;
+}
+
+.section__subtitle{
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+.section__subtitle--intro,
+.section__subtitle--about{
+    background: var(--clr-accent);
+    padding: .25em 1em;
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+/*ENDprueva del otro portfolio*/
+
+
+
+
+
+
+
+.intro, .about-me{
+    position: relative;
+    margin: 10px 55px -20px;
+    }
+.about-me{
+    margin: 10px 70px 30px 100px;
+}
+ .helloh1{
+    margin-bottom: 20px;
+    font-weight: 700;
+ }
+ .where{
+    margin-top: 20px;
+   padding: 5px 0px 0px 0px;
+   text-align: right;
+    color: #94B5C0;
+    font-size: 0.7rem;
+ }
+ .about-me-text-h3{
+    margin: 50px 180px;
+     text-align: justify;
+ }
+ .about_me_text{
+    display:none;
+ }
+ .text_me{
+    margin-top: 40px;
+    margin-left: 15px;
+ }
+ .text_aboutme{
+     padding: 15px 100px;
+     text-align: justify;
+     align: center;
+ }
+.home{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100px;
+    position: relative;
+}
+.titles{
+  margin: 20px 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+.intro-grid{
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.top-p1{
+    margin-top: 40px;
+ }
+.text_saludo{
+    text-align: justify;
+}
+.home-titles{
+    font-size: 20px;
+    font-style: bold;
+    background: #3B5360;
+    margin-top: 20px;
+    border: transparent;
+    color: white;
+    align-text: center;
+}
+.home-titles:hover{
+    /*background: #D8D8D8;*/
+    font-size: 50px;
+    align-text: center;
+}
+.btn-c{
+    margin-left: 10%;
+}
+/* Coding skill*/
+.code{
+    margin: 10px 100px 20px 100px;
+    font-family: 'Montserrat';
+}
+.head-code-skills{
+    font-size: 150%;
+    margin-left: 30px;
+
+}
+.skill-grid{
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.code-skills{
+    background: black;
+    color: white;
+    border-radius: 10%;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.bootstrap{
+width: 90px;
+text-align: center;
+}
+
+/* END home.html */
+
+
+/* resume.html */
+#work{
+    padding: 50px 50px 10px;
+}
+.h2resume{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+.h2resume::after{
+    content: "";
+    width: 140px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px
+    background-color: green;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    opacity: .8;
+}
+.col-center{
+    margin: 0 auto;
+    float: none!important;
+}
+
+.carousel{
+    margin: 50px auto;
+    padding: 0 70px;
+}
+.carousel-item {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box{
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 3px solid #ddd;
+    border-radius: 5%;
+}
+.carousel .img-box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border:-radius: 50%;
+}
+.carousel .testimonial{
+    padding: 30px 0px 10px;
+}
+.carousel .overview{
+    font-style: italic;
+}
+.carousel .overview b {
+    text-transform: uppercase;
+    color: white;
+}
+.carousel .carousel-control {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+.carousel-control i{
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: green;
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators{
+    bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active{
+    width: 10px;
+    height: 10px;
+    margin: 1px 3px;
+    border-radius: 50%;
+}
+.carousel-indicators li{
+    background: #999;
+    border-color: transparent;
+    box-shadow: insert 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active{
+    background: #555;
+    box-shadow: insert 0 2px 1px rgba(0,0,0,0.2);
+}
+.testimonial{
+    font-family: 'Montserrat', sans-serif, 400;
+    font-style: bold;
+    font-size: 3rem;
+    color: #FAF7F0;
+}
+.subplace{
+    font-size: 1rem;
+    color: #FAF7F0;
+
+}
+.carousel-indicators{
+    color: white;
+}
+/* end carousel */
+/* Workeperience */
+.we-li{
+    margin-bottom: 10px;
+    margin-right: 16px;
+    text-align: justify;
+}
+#pricing {
+  padding: 50px;
+}
+
+.price-text {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.card-header{
+    background: black;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+.card-body{
+    background: #94B5C0;
+    text-align: center;
+
+}
+.pricing-column {
+  padding: 3% 2%;
+
+}
+
+/* END resume.html */
+
+/* Project.html*/
+/* My Work*/
+
+.my-work{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.portfolio {
+
+    /* Here is to display the amount of image in this section ' a grid '   */
+    display: grid;
+    /* this formula will display in the total <section> max 3 image per row(the number 3 can be any number).
+     (1fr) equal fraction of the area */
+    /*   ***grid-template-columns: repeat(3, 1fr); **** */
+    /* this formula will display in the total <section> 'minmax' in this case means that each image have a grid of
+     minimum 300Px.but if gets more room it will get bigger.(1fr) equal fraction of the area (it will changes automatically ) */
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.portfolio__item{
+    background: var(--clr-accent);
+    overflow: hidden;
+
+}
+
+.portfolio__img{
+    transition:
+    transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+ .portfolio__item:focus .portfolio__img{
+    transform: scale(1.2);
+    opacity: .5;
+}
+.project{
+    margin:15px;
+}
+.project:hover{
+    font-size: 150%;
+    font-style: bold;
+}
+.project-description{
+    padding: 10px;
+    font-size:70%;
+}
+/* ENDProject.html*/
+
+/* Contact.html */
+.contact-form{
+    color: white;
+    padding: 20px 50px;
+}
+
+ .page-heading{
+    margin: 40px 0px 0px 20px;
+ }
+.text-contact{
+    text-align: justify;
+    margin: 20px 110px 20px 40px;
+}
+ /* END Contact.html */
+
+
+ /* Footer */
+.footer{
+   color: #DAEAF1;
+   margin: 20px;
+   text-align: center;
+   font-size: 60%;
+ }
+ .h6footer{
+    color: #DAEAF1;
+    font-size: 110%;
+ }
+/* END Footer */
+
+
+

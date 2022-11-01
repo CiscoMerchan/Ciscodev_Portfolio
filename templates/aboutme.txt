@@ -1,0 +1,24 @@
+<p class="text_aboutme">My name is Franciscoelias, but everyone calls me Cisco. I entered the world
+of coding 2021 with a online Udemy course "Python Bootcamp". Since then,I have become familiar with programs
+ such as Tkinter, Flask, Turtle, GitHub, Bootstrap, CSS, HTML, SQLite. I have created some
+ <a href="{{ur_for('projects'}}">projects</a> through my course, as well as individual projects that I have displayed
+  on <a href="{">GitHub</a>. I have also joined a Meetup group called Python Beginners ,where I have done a
+  presentation online (<a href="{">YouTube</a>)of a step-by-step on how to create a log-in form using Flask and
+  FLaskForm for beginners.</p>
+  <br>
+<p class="text_aboutme">Coding is a fascinating domain for me, that I wish I found sooner. Being fluent in English,
+Spanish and French (and conversational in others), I can't help but draw similarities between coding and learning a
+language, something I really enjoy. There is always something new to learn, and constant problem-solving are other
+aspects of coding that really appeal to me #####(just to name a few.</p>
+<br>
+<p class="text_aboutme">My previous work experience as a Scuba Diving Instructor, and a manager in hospitality have
+required of me a high level of dedication and self-motivation, professional work etiquette, ability to work under
+pressure and meet deadlines and a high level of communication skill with people from all works of life. </p>
+<br>
+<p class="text_aboutme">In my spare time you can find me sailing, or scuba diving, reading about history, and of
+course with my family. </p>
+<br>
+<p class="text_aboutme">For more detail about my work experience, projects and skills, please follow the link to my
+check my  <a href="{{ur_for('projects'}}">projects</a> and <a href="{{ur_for('resume'}}">resume</a>. </p>
+<br>
+<p class="text_aboutme">Kind regards, Cisco</p>

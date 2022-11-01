@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{%block title%}Ciscodev. Say hi!{% endblock %}
+
+
+{% block content %}
+
+ <!-- Page Header -->
+        <div class="col-md-8 col-center m-auto">
+          <div class="page-heading">
+<!--            <h1>Say hi!</h1>-->
+            <span class="subheading"><h1>Have questions? I have answers.</h1></span>
+          </div>
+        </div>
+    <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-center m-auto">
+        <p class="text-contact">Want to get in touch? Fill out the form below to send me a message, and I will get back to you as soon as possible!</p>
+      </div>
+    </div>
+  </div>
+<div class="col-md-8 col-center m-auto contact-form">
+  {{ wtf.quick_form(form, form_type="horizontal", horizontal_columns=('lg',2,8), button_map ={'submit': 'primary'} ,method='post',novalidate=True) }}
+</div>
+
+
+
+
+
+{% endblock %}
+
+{%block footer%}
+<div class="footer">
+<h6 class="h6footer">&copy;Copyright 2022. Built by Ciscodev at Maroochydore, QLD.</h6>
+</div>
+{% endblock %}
