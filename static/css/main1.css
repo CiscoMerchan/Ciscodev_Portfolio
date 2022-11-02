@@ -48,7 +48,7 @@ body {
 .section__subtitle--intro,
 .section__subtitle--about{
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: .25em .20em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
@@ -63,10 +63,12 @@ body {
 
 .intro, .about-me{
     position: relative;
-    margin: 10px 55px -20px;
+    margin: 10px 0px -20px;
+    margin-left: -65px;
     }
 .about-me{
-    margin: 10px 70px 30px 100px;
+    margin: 10px 20px 30px 50px;
+    align: center;
 }
  .helloh1{
     margin-bottom: 20px;
@@ -91,7 +93,7 @@ body {
     margin-left: 15px;
  }
  .text_aboutme{
-     padding: 15px 100px;
+     padding: 15px 100px 15px 0px;
      text-align: justify;
      align: center;
  }
@@ -119,6 +121,8 @@ body {
     margin-top: 40px;
  }
 .text_saludo{
+    margin-left: -20px;
+    padding: 0 20px 0 0;
     text-align: justify;
 }
 .home-titles{
@@ -140,7 +144,9 @@ body {
 }
 /* Coding skill*/
 .code{
-    margin: 10px 100px 20px 100px;
+    margin: 10px 100px 30px 2
+    0px;
+    width: 600px;
     font-family: 'Montserrat';
 }
 .head-code-skills{
@@ -149,9 +155,10 @@ body {
 
 }
 .skill-grid{
-    padding: 0 100px;
+    padding: 0 180px 0 15px;
+
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
 }
 .code-skills{
     background: black;
