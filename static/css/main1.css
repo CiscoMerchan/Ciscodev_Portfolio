@@ -144,9 +144,9 @@ body {
 }
 /* Coding skill*/
 .code{
-    margin: 10px 100px 30px 2
+    margin: 10px 50px 30px 2
     0px;
-    width: 600px;
+
     font-family: 'Montserrat';
 }
 .head-code-skills{
@@ -155,7 +155,7 @@ body {
 
 }
 .skill-grid{
-    padding: 0 180px 0 15px;
+    padding: 0 20px 0 15px;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
@@ -170,8 +170,9 @@ body {
     text-align: center;
 }
 .bootstrap{
-width: 90px;
-text-align: center;
+    width: 90px;
+    text-align: center;
+    margin-right: 30px;
 }
 
 /* END home.html */
