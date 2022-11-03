@@ -33,8 +33,9 @@ def contact():
 
     if form.validate_on_submit():
         send.send(form.name.data, form.email.data, form.phone.data ,form.message.data)
-        flash('Thank you for interest, I will contact you ASAP!')
-        return redirect(url_for('home'))
+        if form.submit.data:
+            flash('Thank you for interest, I will contact you ASAP!')
+            return redirect(url_for('home'))
     return render_template('contact.html', form=form)
 
 @app.route('/projects')

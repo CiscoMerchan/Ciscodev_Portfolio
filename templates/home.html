@@ -9,7 +9,12 @@
             <h1 class="section__title section__title--intro titulo" >
                 Hi,<br> I am <strong>Cisco</strong>
             </h1>
+            {% for message in get_flashed_messages() %}
+    <div class="alert alert-info">
+       {{ message }}
 
+     </div>
+   {% endfor %}
         </div>
         <div class="text_saludo">
             <h4 class="section__subtitle section__subtitle--intro top-p1">On my way to become a Junior Python Developer</h4>
